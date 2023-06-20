@@ -1,0 +1,12 @@
+<h2 class="titulo">Qual a média de idade para cada tipo sanguíneo?</h2>
+
+<div class="chart-container">
+  <canvas baseChart
+        [datasets]="barChartData"
+        [labels]="barChartLabels"
+        [options]="barChartOptions"
+        [type]="'bar'"
+  ></canvas>
+</div>
+
+<button routerLink="/" class="button">Voltar</button>

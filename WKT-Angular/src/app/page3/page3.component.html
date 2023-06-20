@@ -1,0 +1,12 @@
+<h2 class="titulo">Qual o percentual de obesos entre os homens e entre as mulheres?</h2>
+
+<div class="chart-container">
+  <canvas baseChart
+        [datasets]="barChartData"
+        [labels]="barChartLabels"
+        [options]="barChartOptions"
+        [type]="'bar'"
+  ></canvas>
+</div>
+
+<button routerLink="/" class="button">Voltar</button>

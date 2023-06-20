@@ -1,0 +1,27 @@
+.titulo {
+  padding: 20px;
+}
+
+.chart-container {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #DE5656;
+  color: #ffffff;
+  font-size: 18px;
+  position: fixed;
+  top: 100px;
+  right: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #9b0d0d;
+}

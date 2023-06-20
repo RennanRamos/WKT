@@ -1,0 +1,12 @@
+<h2 class="titulo">Quantos candidatos temos nessa lista em cada estado do Brasil?</h2>
+
+<div class="chart-container">
+  <canvas baseChart
+        [datasets]="barChartData"
+        [labels]="barChartLabels"
+        [options]="barChartOptions"
+        [type]="'bar'"
+  ></canvas>
+</div>
+
+<button routerLink="/" class="button">Voltar</button>

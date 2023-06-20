@@ -1,0 +1,12 @@
+<h2 class="titulo">IMC médio em cada faixa de idade de dez em dez anos: 0 a 10; 11 a 20; 21 a 30, etc.</h2>
+
+<div class="chart-container">
+  <canvas baseChart
+        [datasets]="barChartData"
+        [labels]="barChartLabels"
+        [options]="barChartOptions"
+        [type]="'bar'"
+  ></canvas>
+</div>
+
+<button routerLink="/" class="button">Voltar</button>
