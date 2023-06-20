@@ -17,7 +17,8 @@ Passos execução Spring/Java:
 
 No arquivo application.properties `WKT/WKT-Spring/src/main/resources/application.properties` insira as suas configurações de banco geradas no MySql.
 
-Após vá no arquivo WktApplication.java `WKT/WKT-Spring/src/main/java/com/rennan/wkt/WktApplication.java` e configure corretamete o caminho relativo do JSON na linha 36.
+Após vá no arquivo WktApplication.java `WKT/WKT-Spring/src/main/java/com/rennan/wkt/WktApplication.java` e insira o caminho absoludo do JSON que
+se encontra no caminho `WKT/WKT-Spring/src/main/resources/json/` na linha 36.
 
 Feito isso execute o seu projeto Spring.
 
