@@ -54,7 +54,7 @@ Exemplo de como deve ficar a configuração:
 Após vá no arquivo WktApplication.java `WKT/WKT-Spring/src/main/java/com/rennan/wkt/WktApplication.java` 
 e insira o caminho absoludo do JSON `WKT/WKT-Spring/src/main/resources/json/data_1.json` na linha 36.
 
-Feito isso execute o seu projeto Spring.
+Feito isso execute o seu projeto Spring na IDE ou use `npm install` e depois `mvn spring-boot:run`.
 
 <br/>
 
