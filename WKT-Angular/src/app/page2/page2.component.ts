@@ -61,7 +61,7 @@ export class Page2Component implements OnInit {
 
       var idade = element.idade - 9;
 
-      item.valor = (element.idade.toString()  + ' a ' + idade.toString());
+      item.valor = (idade.toString() + ' a ' + element.idade.toString());
       item.chave = element.imc;
 
       listaRetorno.push(item)
