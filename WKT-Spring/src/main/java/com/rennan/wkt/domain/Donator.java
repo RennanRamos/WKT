@@ -7,6 +7,7 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 @Entity
+@Table(schema = "Donator")
 public class Donator {
 
     @Id
