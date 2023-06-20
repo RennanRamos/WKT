@@ -17,6 +17,24 @@ Passos execução Spring/Java:
 
 No arquivo application.properties `WKT/WKT-Spring/src/main/resources/application.properties` insira as suas configurações de banco geradas no MySql.
 
+<br/>
+
+Exemplo de como deve ficar a configuração:
+
+<br/>
+
+`spring.datasource.url=jdbc:mysql://localhost:3306/seuDB?allowPublicKeyRetrieval=True&useSSL=false&serverTimezone=UTC`
+
+<br/>
+
+`spring.datasource.username=SeuUser`
+
+<br/>
+
+`spring.datasource.password=SuaSenha`
+
+<br/>
+
 Após vá no arquivo WktApplication.java `WKT/WKT-Spring/src/main/java/com/rennan/wkt/WktApplication.java` 
 e insira o caminho absoludo do JSON `WKT/WKT-Spring/src/main/resources/json/data_1.json` na linha 36.
 
