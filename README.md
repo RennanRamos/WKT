@@ -1,5 +1,21 @@
 # WKT
 <h3>
+  Versões:
+</h3>
+
+Java versão 17;
+
+<br/>
+
+NPM versão 9.5.1;
+
+<br/>
+
+Node versão 18.16.0;
+
+<br/>
+
+<h3>
   Intalação/Execução:
 </h3>
 
