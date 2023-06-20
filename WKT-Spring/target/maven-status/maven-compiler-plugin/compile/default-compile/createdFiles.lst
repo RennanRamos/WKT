@@ -1,0 +1,4 @@
+com\rennan\wkt\service\DonatorService.class
+com\rennan\wkt\domain\Donator.class
+com\rennan\wkt\WktApplication.class
+com\rennan\wkt\repository\DonatorRepository.class
