@@ -1,9 +1,38 @@
 # WKT
+<h3>
+  Intalação/Execução:
+</h3>
 
-O primeiro passo é ter o MySql funcionando localmente (https://dev.mysql.com/downloads/installer/) pagina do dowload do MySql.
+Ter o MySql funcionando localmente (https://dev.mysql.com/downloads/installer/) pagina do dowload do MySql.
 
-O segundo passo é configurar o mySql corretamente application.properties na parte de spring do projeto com as suas configurações do banco.
+Fazer o clone do projeto `git clone git@github.com:RennanRamos/WKT.git`.
 
-O terceiro passo é configurar o caminho do json corretamente na parte de spring do projeto no WktApplication.java para assim injetarmos os dados no banco.
+Abrir o projeto na sua IDE de preferência.
 
-O quarto passo é usa o npm install -g @angular/cli no projeto Angular para instalar o node modules.
+<br/>
+
+<h3>
+Passos execução Spring/Java:
+</h3>
+
+No arquivo application.properties `WKT/WKT-Spring/src/main/resources/application.properties` insira as suas configurações de banco geradas no MySql.
+
+Após vá no arquivo WktApplication.java `WKT/WKT-Spring/src/main/java/com/rennan/wkt/WktApplication.java` e configure corretamete o caminho relativo do JSON na linha 36.
+
+Feito isso execute o seu projeto Spring.
+
+<br/>
+
+<h3>
+Passos execução Angular/TypeScript:
+</h3>
+
+Na raiz do seu projeto angular `WKT/WKT-Angular` em um terminal execute o comando `npm install` para instalar as dependências.
+
+Feito isso use o `npm run start` para executar seu projeto angular e acesse o `http://localhost:4200` para verificar a aplicação.
+
+
+
+
+
+
